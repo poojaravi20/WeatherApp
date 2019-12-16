@@ -1,0 +1,128 @@
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
+    border-color: #d45500;
+    border-bottom-color: transparent;
+}
+.nav-tabs {
+   border-bottom: 1px solid grey;
+}
+
+.modal-dialog{
+	justify-content: center;
+}
+
+.ml-auto p { margin:0 }
+
+@media (min-width: 768px){
+	.colDetails{
+		padding-left: 50%;
+	}
+
+	.card{
+		width: 30rem; 
+	}
+
+	.details{
+		font-size: 150%; 
+	}
+
+	#detailsS{
+		font-size: 125%; 
+	}
+
+	.card-text .mx-auto{
+		width: 150px;
+		height:150px; 
+	}
+
+	.imageSeal{
+		padding-right: 10%;
+	}
+
+	.resultButton{
+		padding-right: 1.5%; 
+	}
+
+	.favoriteButton{
+		padding-left: 1.5%; 
+	}
+	.modal-details img{
+		margin-top: -10%; 
+	}
+
+	.table{
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media (max-width: 767px){
+	.card-text .mx-auto{
+		width:75px ;
+		height:75px; 
+	}
+
+	.imageSeal{
+		padding-right: 10%;
+		padding-top: 10%;
+	}
+
+	.resultButton{
+		padding-right: 1%; 
+	}
+
+	.favoriteButton{
+		padding-left: 1%; 
+	}
+
+	.details img{
+		width: 5px;
+		height: 5px; 
+	}
+
+	.modal-details img{
+		margin-top: -20%; 
+	}
+
+	.table{
+		width: 60%;
+		margin: auto;
+	}
+	.cardTable img{
+		width: 20px; 
+		height: 20px; 
+	}
+
+	.cardTable td{
+		font-size: 70%; 
+	}
+
+}
+
+.table tr:nth-child(odd) {
+	background: #9AC5F5;
+}
+
+.table tr:nth-child(even) {
+	background: #406688;
+}
+
+@media (max-width: 350px){
+	.cardTable img{
+		width: 20px; 
+		height: 20px; 
+	}
+
+	.cardTable td{
+		font-size: 25%; 
+	}
+
+	.cardTable.card-writing td{
+		font-size: 25%;
+	}
+
+	.modal-details img{
+		margin-top: -25%; 
+	}
+}
+
+

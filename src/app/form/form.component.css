@@ -1,0 +1,43 @@
+.col{
+	margin: auto; 
+	padding: 5%;
+}
+
+.col-12[_ngcontent-ose-c1]{
+	padding-top: 0%;
+}
+
+.h-100{
+	margin-top: 1%;
+}
+
+#statelist{
+	width: 125%;
+	text-indent: 5px;
+}
+
+.form-group.required .control-label:after{
+	content: "*";
+	color: red; 
+
+}
+
+@media (min-width: 992px){
+	.row .searchButton{
+		padding-right: 2%;
+	}
+	
+	.row .clearButton{
+		padding-left: 3%;
+	}
+}
+
+@media (max-width: 991px){
+	.row .searchButton{
+		padding-right: 1%;
+	}
+	
+	.row .clearButton{
+		padding-left: 1%;
+	}
+}
