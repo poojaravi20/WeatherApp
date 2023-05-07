@@ -25,7 +25,7 @@
     "bootstrap": "^4.0.0",
     "canvasjs": "^1.8.1",
     "chart.js": "^2.9.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ng2-charts": "^2.3.0",
     "popper": "^1.0.1",
     "rxjs": "~6.4.0",
